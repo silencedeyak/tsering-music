@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add("js");</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Tsering Music</title>
+<meta name="description" content="A visual journey through the landscapes, traditions and scores that shape the music of Tsering Dondrup.">
+<meta name="theme-color" content="#06060a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="loader">
+  <div class="loader__inner">
+    <div class="loader__mark">Gallery</div>
+    <div class="loader__rule"></div>
+    <div class="loader__pct">000 — Loading</div>
+  </div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="progress"><div class="progress__bar"></div></div>
+
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="Tsering Music — home">
+    <span class="brand__glyph"><span>T</span></span>
+    <span class="brand__name">Tsering Music<small>ཚེ་རིང་ · 才让当周</small></span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a class="nav__link" href="index.html">Home</a>
+    <a class="nav__link" href="biography.html">Biography</a>
+    <a class="nav__link" href="music.html">Music</a>
+    <a class="nav__link" href="artistic-vision.html">Artistic Vision</a>
+    <a class="nav__link is-active" href="gallery.html">Gallery</a>
+    <a class="nav__cta" href="contact.html"><span>Contact</span></a>
+  </nav>
+  <button class="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+</header>
+
+<div class="drawer" id="drawer">
+  <a href="index.html">Home</a>
+  <a href="biography.html">Biography</a>
+  <a href="music.html">Music</a>
+  <a href="artistic-vision.html">Artistic Vision</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <p class="drawer__foot">Tibetan Music Researcher · Royal Museum of Musical Instruments, Belgium</p>
+</div>
+
+<main id="main">
+
+<section class="section" style="padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:clamp(9rem,18vh,13rem)">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal="fade">Archive</p>
+    <h1 class="h-display js-split" data-reveal data-delay="60">Gallery</h1>
+    <p class="lead mt-2" data-reveal data-delay="160">Landscapes, traditions, instruments and manuscripts — the visual world behind the music. Select any image to enlarge.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="wrap">
+    <div class="gallery">
+      <button class="shot" data-full="assets/img/plateau-dawn.jpg" data-caption="Tibetan plateau at dawn — the spatial and emotional foundation of the compositions">
+        <img src="assets/img/plateau-dawn.jpg" alt="Tibetan plateau at dawn" loading="lazy">
+        <span class="shot__cap"><strong>Sacred Landscape</strong><span>Plateau · Dawn</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/manuscript.jpg" data-caption="Hand-notated folk song transcription — decades of archival documentation">
+        <img src="assets/img/manuscript.jpg" alt="Hand-notated musical manuscript" loading="lazy">
+        <span class="shot__cap"><strong>Transcription</strong><span>Manuscript · Archive</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/instruments.jpg" data-caption="Dranyen, gyaling, damaru and ritual brass — the traditional timbral palette">
+        <img src="assets/img/instruments.jpg" alt="Traditional Tibetan instruments" loading="lazy">
+        <span class="shot__cap"><strong>Instruments</strong><span>Dranyen · Gyaling · Damaru</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/tsering-hero.jpg" data-caption="Tsering Dondrup — composer, musicologist, cultural ambassador">
+        <img src="assets/img/tsering-hero.jpg" alt="Portrait of Tsering Dondrup" loading="lazy">
+        <span class="shot__cap"><strong>Tsering Dondrup</strong><span>Composer · Researcher</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/monastery-lamps.jpg" data-caption="Labrang Monastery chant traditions — deep drones and monastic vocal technique">
+        <img src="assets/img/monastery-lamps.jpg" alt="Monastery prayer hall with butter lamps" loading="lazy">
+        <span class="shot__cap"><strong>Monastic Chant</strong><span>Labrang · Gelug Tradition</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/prayer-flags.jpg" data-caption="Nomadic song heritage — herding songs, work songs and love songs of the grasslands">
+        <img src="assets/img/prayer-flags.jpg" alt="Prayer flags over nomadic grasslands" loading="lazy">
+        <span class="shot__cap"><strong>Nomadic Heritage</strong><span>Grasslands · Steppe</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/dance-drama.jpg" data-caption="“Sai·Dun Yue and Dun Zhu” — eight-act mythological dance drama, Beijing 1987">
+        <img src="assets/img/dance-drama.jpg" alt="Tibetan dance drama performance" loading="lazy">
+        <span class="shot__cap"><strong>Dance Drama</strong><span>Sai·Dun Yue and Dun Zhu · 1987</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/plateau-dawn.jpg" data-caption="Wide intervallic leaps mirroring the vast plateau landscape">
+        <img src="assets/img/plateau-dawn.jpg" alt="Mountain ranges in mist" loading="lazy">
+        <span class="shot__cap"><strong>Melodic Character</strong><span>Pentatonic · Modal</span></span>
+      </button>
+
+      <button class="shot" data-full="assets/img/instruments.jpg" data-caption="Brass, silk and carved wood — orchestration choices informed by indigenous instrumentation">
+        <img src="assets/img/instruments.jpg" alt="Detail of Tibetan ritual instruments" loading="lazy">
+        <span class="shot__cap"><strong>Timbral Palette</strong><span>Orchestration</span></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="cta__bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow" data-reveal="fade" style="justify-content:center">Experience the Vision</p>
+    <h2 class="h2" data-reveal data-delay="60" style="max-width:20ch;margin-inline:auto">From the archive to the concert hall</h2>
+    <div class="btn-row" data-reveal data-delay="140">
+      <a class="btn btn--solid" href="music.html"><span class="btn__label">Listen to His Music</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost" href="contact.html"><span class="btn__label">Get in Touch</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <h4>Tsering Music</h4>
+        <p class="lead" style="font-size:0.95rem;max-width:38ch">Bridging ancient traditions with modern sound — a life's work in Tibetan composition, research and cultural preservation.</p>
+        <div class="footer__support mt-2">
+          <span class="brand__glyph"><span>T</span></span>
+          <span>With the generous support of the Tibet Cultural Association</span>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="artistic-vision.html">Artistic Vision</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="music.html#listen">Streaming</a></li>
+          <li><a href="music.html#discography">Discography</a></li>
+          <li><a href="artistic-vision.html#mission">Mission</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__big" aria-hidden="true">TSERING DONDRUP</div>
+    <div class="footer__legal">
+      <span>© 2025 — 2026 Tsering Music</span>
+      <span>Composer · Pioneer · Cultural Ambassador</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox__close" aria-label="Close image viewer">✕</button>
+  <div style="text-align:center">
+    <img src="" alt="">
+    <p class="lightbox__cap"></p>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Deployment artifacts (never commit build packages)
+*.zip
+*.tar.gz
+
+# Backups / temp files
+*.bak
+*.tmp
+*~
